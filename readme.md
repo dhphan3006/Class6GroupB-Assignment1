@@ -5,6 +5,7 @@
 # TABLE OF CONTENT 
 1. Provision Ubuntu Server on AWS.
 2. Create User Accounts for All Team Members on the Ubuntu Server.
+    
     **2.1**. Challenges
 3. Add User 'Calson' and Share Login Details.
 4. Create Groups and Add Members.
