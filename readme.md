@@ -1,3 +1,5 @@
+# ASSIGNMENT-GROUPB-CLASS6-TEAM4TECHSOLUTION
+
 # Note: Since everyone has their own tasks that require sudo privileges, we added everyone's public key to the 'ubuntu' username, which already has sudo privileges, instead of granting sudo privileges to each individual.
 
 # TABLE OF CONTENT 
