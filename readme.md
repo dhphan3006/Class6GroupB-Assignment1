@@ -36,9 +36,9 @@
 ![alt text](image-5.png)
  
 **2.1. Challenges: Everyone encountered difficulties connecting via SSH to their username on the first attempt.**
-       **Problem: The issue stemmed from using the incorrect command to switch usernames and their respective home directories.**
+       + Problem: The issue stemmed from using the incorrect command to switch usernames and their respective home directories.
        Wrong command: `sudo su <username>`. This command only switches the username but does not change the working directory from Ubuntu's home directory to the user's home directory.
-       **Solution: Using the command `sudo -i -u <username>` or `sudo su - <username>` resolves this issue, as it switches both the username and the working directory to the user's home directory.**
+       + Solution: Using the command `sudo -i -u <username>` or `sudo su - <username>` resolves this issue, as it switches both the username and the working directory to the user's home directory.
  
 ![alt text](image-6.png)
 
