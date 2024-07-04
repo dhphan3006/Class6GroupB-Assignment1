@@ -24,7 +24,8 @@
 + Step 5: After creating the instance, type Instances on search bar. It will show the server created. 
  ![alt text](image-3.png)
 + Step 6: Click the server, then choose Connect, and then choose SSH client and copy the default command provided. Next, switch to the directory where the private key file is stored. Then, open your Command Line or PowerShell on Windows, the terminal in VSCode, or Terminal on a Macbook. Finally, connect to the server with SSH by entering the command.
-
+ ![alt text](image-12.png)
+ 
 # Task 2: Create User Accounts for All Team Members on the Ubuntu Server.
 + Step 1: Create users by running command `sudo useradd <username>`.
 
