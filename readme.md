@@ -35,6 +35,7 @@
        **Problem: The issue stemmed from using the incorrect command to switch usernames and their respective home directories.**
        Wrong command: `sudo su <username>`. This command only switches the username but does not change the working directory from Ubuntu's home directory to the user's home directory.
        **Solution: Using the command `sudo -i -u <username>` or `sudo su - <username>` resolves this issue, as it switches both the username and the working directory to the user's home directory.**
+ 
  ![alt text](image-6.png)
 
 # Task 3: Add User 'Calson' and Share Login Details.
@@ -53,6 +54,7 @@
 + Step 3: Write command `sudo groupadd Cloud-Engineer` to create Cloud Engineer user group.
 + Step 4: To verify groups we created, run the command `gentent group`.
 + Step 5: Finally, to add indivudual users to the groups, run the command `sudo adduser <username> <groupname>` then repeat the same command until every individuals are added accordingly.
+ 
  ![alt text](image-9.png)
 
 # Task 5: Create a Directory and File with Specific Content and Permissions.
@@ -67,4 +69,5 @@
 + Step 1: `sudo apt update` command is used to ensure the lastest version is installed.
 + Step 2: `sudo apt install git` command to install GIT.
 + Step 3: `git --version` to verify GIT is installed correctly. 
+ 
  ![alt text](image-11.png)
