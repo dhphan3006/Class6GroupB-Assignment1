@@ -62,6 +62,7 @@
 + Step 2: `cd class6` to change directory and then `vi Assignment` to create and add content "Welcome to Team4tech Solution"", then save the file with ESC + wq! + Enter.
 + Step 3: `sudo chmod 660 Assignment` to set file permissions to read and write for the user and group, and no permissions for other.
 + Step 4: Run command `sudo chown calson:DevOps-Engineer Assignment` to change the file ownership to Calson user and DevOps-Engineer group. 
+
 ![alt text](image-10.png)
 
 # Task 6: Install Git on the Server.
