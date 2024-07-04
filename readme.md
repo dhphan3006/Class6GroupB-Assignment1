@@ -30,21 +30,18 @@
 + Step 2: Add each person's public key to their respective home directory. 
        
        Run command `sudo -i -u <username>` to switch to the user and their home directory.
-
        Run command `mkdir -p ~/.ssh` to create .ssh directory.
-
        Run command `vi ~/.ssh/authorized_keys` to create authorized_keys file where stores public key.
-
        Run command `chmod 700 ~/.ssh/authorized_keys` to grant permission to user on authorized_keys file.
  
 ![alt text](image-5.png)
  
 **2.1. Challenges: Everyone encountered difficulties connecting via SSH to their username on the first attempt.**
        
-       + Problem: The issue stemmed from using the incorrect command to switch usernames and their respective home directories.
+       Problem: The issue stemmed from using the incorrect command to switch usernames and their respective home directories.
        Wrong command: `sudo su <username>`. This command only switches the username but does not change the working directory from Ubuntu's home directory to the user's home directory.
        
-       + Solution: Using the command `sudo -i -u <username>` or `sudo su - <username>` resolves this issue, as it switches both the username and the working directory to the user's home directory.
+       Solution: Using the command `sudo -i -u <username>` or `sudo su - <username>` resolves this issue, as it switches both the username and the working directory to the user's home directory.
  
 ![alt text](image-6.png)
 
