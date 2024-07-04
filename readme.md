@@ -65,4 +65,5 @@ Step 4: Run command `sudo chown calson:DevOps-Engineer Assignment` to change the
 # Task 6: Install Git on the Server.
 Step 1: `sudo apt update` command is used to ensure the lastest version is installed.
 Step 2: `sudo apt install git` command to install GIT.
-Steo 3: `git --version` to verify GIT is installed correctly. 
+Step 3: `git --version` to verify GIT is installed correctly. 
+![alt text](image-11.png)
